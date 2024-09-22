@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgrespw
+  jpa:
+    properties:
+      hibernate:
+        default_schema: dev_pulse
+    open-in-view: false
+  flyway:
+    schemas: dev_pulse
